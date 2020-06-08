@@ -1,0 +1,39 @@
+
+.ListOfComments{
+    display: flex;
+    flex-direction: column;
+    .ContainerOfComment{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .Functions{
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            .Buttons{
+                display: flex;
+                flex-direction: row;
+                .deleteButton:hover{
+                    color: #e53935;
+                    transition: all 0.3s;
+                }
+                .editIcon:hover{
+                    color:#ef6c00;
+                    transition: all 0.3s;
+                }
+            }
+            .Name{
+                width: 300px;
+                word-wrap:break-word
+            }
+
+        }
+        .Date{
+            text-align: right;
+            padding-right: 60px;
+        }
+    }
+
+
+}
+

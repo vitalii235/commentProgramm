@@ -1,0 +1,23 @@
+.DisplayComponent {
+    position: relative;
+  .loaderContainer {
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+  }
+  .logoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .LinkLogOut{
+      display: block;
+      margin: 20px 0 0 0;
+    }
+  }
+
+
+}
